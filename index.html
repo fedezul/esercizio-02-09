@@ -130,19 +130,30 @@
                 <br /><br />
                 <input type="email" placeholder="lucaverdi@test.com" required>
                 <br /><br>
-                 <label for="text">Inserisci la tua città</label>
+                <label for="text">Inserisci la tua città</label>
                 <select name="citta">
                     <option disabled selected hidden>Seleziona una città</option>
-                    <option value="roma">Roma</option>
-                    <option value="milano">Milano</option>
-                    <option value="napoli">Napoli</option>
-                    <option value="torino">Torino</option>
-                    <option value="palermo">Palermo</option>
-                    <option value="genova">Genova</option>
-                    <option value="bologna">Bologna</option>
-                    <option value="firenze">Firenze</option>
-                    <option value="bari">Bari</option>
-                    <option value="venezia">Venezia</option>
+                    <optgroup label="nord">
+                        <option value="milano">Milano</option>
+                        <option value="genova">Genova</option>
+                        <option value="venezia">Venezia</option>
+                        <option value="torino">Torino</option>
+                        <option value="bologna">Bologna</option>
+                    </optgroup>
+                    <optgroup label="centro">
+                        <option value="roma">Roma</option>
+                        <option value="perugia">Perugia</option>
+                        <option value="ancona">Ancona</option>
+                        <option value="firenze">Firenze</option>
+                    </optgroup>
+                    <optgroup label="sud">
+                        <option value="napoli">Napoli</option>
+                        <option value="palermo">Palermo</option>
+                        <option value="bari">Bari</option>
+                    </optgroup>
+
+
+
                 </select>
                 <br><br>
                 <label for="text">Scivi il tuo messaggio</label>
